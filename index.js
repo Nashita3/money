@@ -16,7 +16,7 @@ phina.define('MainScene', {
 
     shape.x = 320;
     shape.y = 480;
-    shape.update = function(e) {
+    this.update  = function(e) {
         // 移動
         shape.x = e.pointer.x;
         shape.y = e.pointer.y;
